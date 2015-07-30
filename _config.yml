@@ -1,0 +1,42 @@
+name: "CoderDojo Melvindale"
+tagline: "Code Young! Code Long!"
+
+url: "http://melcoderdojo.com"
+
+paginate: 5
+
+markdown: redcarpet
+permalink: /:year/:month/:title/
+timezone: US/Eastern
+
+highlighter: pygments
+gems:
+  - jemoji
+
+navigation:
+  - text: Home
+    url: /
+    title: Go home
+  - text: About
+    url: /about
+    title: What is this?
+  - text: Volunteer
+    url: /volunteer
+    title: Want to help?
+  - text: Contact
+    url: /contact
+    title: Shoot us a message
+
+media:
+  - text: Twitter
+    url: http://twitter.com/MelCoderDojo
+    title: We're on Twitter
+    image: /img/twitter-circle.png
+  - text: Facebook
+    url: http://www.facebook.com/pages/CoderDojo-Melvindale/711828098898791
+    title: We're on Facebook
+    image: /img/facebook-circle.png
+  - text: RSS
+    url: http://twitter.com/MelCoderDojo
+    title: RSS Feed
+    image: /img/rss-circle.png

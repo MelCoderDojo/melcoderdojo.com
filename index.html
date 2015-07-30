@@ -1,0 +1,23 @@
+---
+title: Home
+layout: default
+---
+
+{% for post in paginator.posts %}
+	<article>
+		<header class="title-header">
+			<h2 class="post-title">
+				<a class="title-link" href="{{ post.url }}">{{ post.title }}</a>
+			</h2>
+			<p class="date text-right">
+				<time>{{ post.date | date: "%B %-d, %Y @ %I:%M %p" }}</time>
+			</p>
+		</header>
+
+		{{ post.excerpt }}
+
+		<p>
+			<a href="{{ post.url }}">Read more....</a>
+		</p>
+	</article>
+{% endfor %}

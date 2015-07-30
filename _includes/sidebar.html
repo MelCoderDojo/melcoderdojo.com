@@ -1,0 +1,27 @@
+<section class="media-block sidebar-block text-center">
+	<ul class="inline">
+	{% for link in site.media %}
+		<li class="media-item inline">
+			<a href="{{ link.url }}"><img src="{{ site.url }}{{ link.image }}"></a>
+		</li>
+	{% endfor %}
+	</ul>
+</section>
+
+<section class="sidebar-block">
+	<h2 class="sidebar-title black text-center">Next Meetup</h2>
+
+	<p class="sidebar-text">September 9th, 5pm to 7pm</p>
+
+	<p class="sidebar-text"><a href="{{ site.url }}/about">More details....</a></p>
+</section>
+
+<section class="sidebar-block">
+	<h2 class="sidebar-title black text-center">Recent Posts</h2>
+
+	<ul class="recent-post-list">
+	  {% for post in site.posts limit: 5 %}
+	    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+</section>
