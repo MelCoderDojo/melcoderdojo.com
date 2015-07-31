@@ -2,7 +2,7 @@
 	<ul class="inline">
 	{% for link in site.media %}
 		<li class="media-item inline">
-			<a href="{{ link.url }}"><img src="{{ site.url }}{{ link.image }}"></a>
+			<a href="{{ link.url }}" title="{{ link.title }}"><img src="{{ site.url }}{{ link.image }}" alt="{{ link.text }}"></a>
 		</li>
 	{% endfor %}
 	</ul>
