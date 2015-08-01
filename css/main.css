@@ -31,7 +31,7 @@ h3 {
 }
 
 a {
-	color: #70D0A0;
+	color: #70d0a0;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -61,11 +61,11 @@ p {
 	border-right: 1px solid white;
 }
 
-@media screen and (min-width: 920px) {
+/*@media screen and (min-width: 920px) {*/
 	.container {
 		width: 902px;
 	}
-}
+/*}*/
 
 .page-header {
 	color: white;
@@ -93,12 +93,12 @@ p {
 
 .nav-link:active,
 .nav-active {
-    border-bottom: 3px solid #70D0A0;
+    border-bottom: 3px solid #70d0a0;
     color: black;
 }
 
 .nav-link:hover {
-	color: #70D0A0;
+	color: #70d0a0;
 }
 
 /* Dragon Box */
@@ -120,7 +120,7 @@ p {
 /* Contents */
 
 .title-header {
-	border-bottom: 3px solid #70D0A0;
+	border-bottom: 3px solid #70d0a0;
 	margin-bottom: 1.5em;
 }
 
@@ -133,7 +133,7 @@ p {
 }
 
 h3 {
-	border-bottom: 3px solid #70D0A0;
+	border-bottom: 3px solid #70d0a0;
 	margin: 1.5em 0 1em;
 	padding-bottom: 0.5em;
 }
@@ -148,12 +148,12 @@ time {
 
 /* Sidebar */
 
-@media screen and (min-width: 920px) {
+/*@media screen and (min-width: 920px) {*/
 	.sidebar {
 		margin-top: 1em;
 		padding-left: 1.875em;
 	}
-}
+/*}*/
 
 .sidebar-block {
 	font-size: 0.903em;
