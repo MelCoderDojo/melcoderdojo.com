@@ -53,6 +53,14 @@ p {
 	text-align: right;
 }
 
+/* Help with this from http://www.syntaxxx.com/how-to-style-hr-with-css/ */
+hr {
+	background-color: #70d0a0;
+	border: 0;
+	height: 0.1em;
+	margin: 12px 0 25px;
+}
+
 /* Structure */
 
 .container {
