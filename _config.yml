@@ -1,7 +1,7 @@
 name: "CoderDojo Melvindale"
 tagline: "Code Young! Code Long!"
 
-url: "http://melcoderdojo.com"
+url: "https://melcoderdojo.com"
 
 paginate: 5
 
@@ -30,14 +30,14 @@ navigation:
 
 media:
   - text: Twitter
-    url: http://twitter.com/MelCoderDojo
+    url: https://twitter.com/MelCoderDojo
     title: We're on Twitter
     image: /img/twitter-circle.png
   - text: Facebook
-    url: http://www.facebook.com/pages/CoderDojo-Melvindale/711828098898791
+    url: https://www.facebook.com/pages/CoderDojo-Melvindale/711828098898791
     title: We're on Facebook
     image: /img/facebook-circle.png
   - text: RSS
-    url: http://twitter.com/MelCoderDojo
+    url: https://twitter.com/MelCoderDojo
     title: RSS Feed
     image: /img/rss-circle.png
